@@ -15,4 +15,7 @@
 ./mvnw quarkus:add-extension -D extensions=hibernate-reactive-panache,reactive-pg-client,io.quarkus:quarkus-elytron-security-common
 ```
 
-48
+> **_TESTS_**
+```shell script
+./mvnw clean test -D test=UserResourceTest
+```
